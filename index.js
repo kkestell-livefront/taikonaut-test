@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
+app.get("/health", (req, res) => {
+  res.type("text/plain").send("ok");
+});
+
 if (require.main === module) {
   app.listen(3000);
 }
