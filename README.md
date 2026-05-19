@@ -9,8 +9,6 @@ npm install
 npm start
 ```
 
-Last updated: 2026-05-19
-
 ## Test
 
 ```
