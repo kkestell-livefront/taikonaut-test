@@ -1,8 +1,8 @@
 const request = require("supertest");
 const app = require("../index");
 
-test("GET / returns Hello World", async () => {
+test("GET / returns Goodbye World", async () => {
   const res = await request(app).get("/");
   expect(res.status).toBe(200);
-  expect(res.text).toBe("Hello World");
+  expect(res.text).toBe("Goodbye World");
 });
