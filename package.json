@@ -1,0 +1,18 @@
+{
+  "name": "taikonaut-test",
+  "version": "1.0.0",
+  "description": "Scratch target repo for taikonaut agent runs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
